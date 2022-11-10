@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { MenubarModule } from 'primeng/menubar';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
+import { TopWheyComponent } from './top-whey/top-whey.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
+    TopWheyComponent,
   ],
   imports: [
     BrowserModule,
