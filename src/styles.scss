@@ -10,3 +10,28 @@
   margin-top: 1rem;
   width: 60rem;
 }
+
+.mobile-img {
+  margin: 2rem 0rem 2rem 20rem;
+  width: 300px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/********Responsividade***********/
+@media screen and (max-width: 400px){
+
+  .container {
+    margin: auto;
+    margin-top: 1rem;
+    width: 390px;
+  }
+
+  .mobile-img {
+    margin: 1rem 0rem 1rem 4.5rem;
+    width: 200px;
+  }
+}

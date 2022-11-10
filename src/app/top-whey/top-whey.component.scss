@@ -1,0 +1,30 @@
+.header {
+  margim-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.container__p {
+  margin-bottom: 3rem;
+}
+
+.container__button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 390px){
+
+  .container {
+    margin: auto;
+    margin-top: 1rem;
+    width: 390px;
+  }
+
+  .container__button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+}
