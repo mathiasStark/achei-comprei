@@ -10,8 +10,9 @@ import { MenuItem } from 'primeng/api';
 export class HeaderComponent implements OnInit {
 
   items: MenuItem[] = [
-    {label: 'Top Suplementos', icon: 'pi pi-fw pi-sort'},
-    {label: 'Top Exercicios', icon: 'pi pi-fw pi-sort'},
+    {label: 'Saúde & Alimentação', icon: 'pi pi-fw pi-heart'},
+    {label: 'Beleza', icon: 'pi pi-fw pi-sun'},
+    {label: 'Eletrônicos', icon: 'pi pi-fw pi-calculator'},
   ];
 
   constructor() {}
