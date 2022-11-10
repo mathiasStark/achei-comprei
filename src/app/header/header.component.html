@@ -1,8 +1,13 @@
-<p-menubar>
+<p-menubar [model]="items">
   <ng-template pTemplate="start">
-    <img src="assets/header.jpg" height="40" class="mr-2">
+    <a href="">
+      <img src="assets/header.jpg" height="60" width="100" class="mr-2">
+    </a>
   </ng-template>
   <ng-template pTemplate="end">
-    <input type="text" pInputText placeholder="Search">
+    <span class="p-input-icon-right">
+      <i class="pi pi-search"></i>
+      <input class="header__input" type="text" pInputText placeholder="Pesquisar"/>
+  </span>
   </ng-template>
 </p-menubar>

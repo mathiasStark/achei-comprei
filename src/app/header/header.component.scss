@@ -1,3 +1,31 @@
 ::ng-deep .p-menubar {
-  background-color: rgb(189, 33, 33);
+  background-color: rgb(201, 16, 16);
 }
+
+::ng-deep .pi-bars:before {
+  color: white;
+}
+
+::ng-deep .p-menubar .p-menuitem {
+  margin-left: 2rem;
+  color: white !important;
+}
+
+::ng-deep .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-text {
+  color: white;
+}
+
+::ng-deep .pi:before {
+  color: white;
+}
+
+::ng-deep span .pi:before {
+  color: rgb(8, 8, 8);
+}
+
+.header__input {
+  height: 2rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
